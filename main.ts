@@ -32,20 +32,20 @@ for (let index = 0; index < 6; index++) {
 let mySprite = sprites.create(img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . f f f f f f f f f f . . . 
-. . . f . . . . . . . . f . . . 
-. . . f . . f . . f . . f . . . 
-. . . f . . . . . . . . f . . . 
-. . . f . f . . . . . . f . . . 
-. . . f . . f f f f f f f f f f 
-. . f f . . . . . . . . f . . . 
-. . . f f f f f f f f f f . . . 
-. . . . . . . f . . . . . . . . 
-. . . . . . . f . . . . . . . . 
-. . f f f f f f f f f f f f f f 
-. . . . . . . . f . . . . . . . 
-. . . . . . . . f . . . . . . . 
+. . . . . f f f f f f f f f . . 
+. . . . f . . . . . . . . f . . 
+. . . f . f . . f . . . . f . . 
+. . f . . . . . . . . f f . . . 
+. f . . . f f f . f f . . . . . 
+. f . . . . . . f . . . . . . . 
+. f f f f f f f . . . . . . . . 
+. . . . . . f . . . . . . . . . 
+. . . . . . f . . . . . . . . . 
+. . . f f f f f f f . . . . . . 
+. . f . . f f f . . f . . . . . 
+. . . . . . f . . . . . . . . . 
+. . . . . . f . . . . . . . . . 
+. . . . . f . f . . . . . . . . 
 `, SpriteKind.Player)
 for (let index = 0; index < 6; index++) {
     pause(100)
